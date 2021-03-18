@@ -1,0 +1,49 @@
+@import "css/index.css";
+
+/*---UA Reset---*/
+body, h1, h2, ol, p {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Typography */
+:root {
+    font-size:62.5%; /* 10px */
+}
+
+body {
+    font-size: 1.4rem;
+}
+
+h1, h2 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* Colors */
+:root {
+    --background-color:midnightblue;
+    --normal-color: dodgerblue;
+    --primary-color: lightgreen;
+    --secondary-color: salmon;
+    --light-color: skyblue;
+}
+
+/* Layouts */
+.d-wrapper {
+    width: auto;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0 2rem;
+}
+
+
+/* components */
+body {
+    background-color: var(--background-color);
+    color: var(--normal-color);
+}

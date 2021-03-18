@@ -1,0 +1,37 @@
+@import "./home.css";
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    margin: 0px 80.111px;
+    padding: 0 180px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;    
+}
+
+p,h2,h4, {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+table {
+    border-collapse: collapse;
+}
+caption {
+    display: none;
+}
+
+.a-wrap {
+    width: auto;
+    height: auto;
+    max-width: 1200px;
+    max-height: 1200px;
+    margin: 0px auto;
+}
+/*-----html,body-----*/

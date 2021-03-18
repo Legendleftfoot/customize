@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/eeb8fccf5f.js" crossorigin="anonymous">
+    </script>
+    <link rel="shortcut icon" href="/img/manpeace_icon.ico">
+    <title>맨피스</title>
+</head>
+<body>
+    <div class="a-wrap">
+        <section class="loginbox">
+            <div class="loginbox-input">
+                <div class="loginboxicon"><i class="fas fa-user"></i></div>
+            <input class="loginbox-tp" type="text" placeholder="ID" style="width: 185;height: 23px;"></div>
+            <div class="loginbox-input">
+                <div class="loginboxicon"><i class="fas fa-lock"></i></div>
+                <input class="loginbox-tp" type="password" placeholder="비밀번호" minlength="6"style="width: 85;height: 23px;"></div>
+                <button class="loginbox-btn"><i class="fas fa-sign-in-alt"></i>Login</button>
+        </section>
+    <header> 
+        <div class="top-bar">
+            <ul class="top-bar__Lbtn">
+                <li><a href="#">즐겨찾기</a></li>
+                <li><a href="#">RSS 구독</a></li>
+                <li><a href="#">03월07일(일)</a></li>
+            </ul>
+            <ul class="top-bar__Rbtn">
+                <li><a href="#">쪽지</a></li>
+                <li><a href="#">스크랩</a></li>
+                <li><a href="#">정보수정</a></li>
+                <li><a href="#">로그아웃</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="logo-header">
+        <div class="best-btn">
+            <button href="#" title="베스트">베스트</button>
+        </div>
+        <h2 class="logo-header__logo">맨피스
+        </h2>
+    </div>
+    <nav class="navbar">
+        <ul class="navbar__menu">
+            <li><a href="#">인터넷이슈<img src="img/icon_new.gif"></a></li>
+            <li><a href="#">유저이슈<img src="img/icon_new.gif"></a></li>
+            <li><a href="#">스포츠<img src="img/icon_new.gif"></a></li>
+            <li><a href="#">자유게시판<img src="img/icon_new.gif"></a></li>
+            <li><a href="#">걸그룹/연예인<img src="img/icon_new.gif"></a></li>
+            <li><a href="#">인물<img src="img/icon_new.gif"></a></li>
+            <li><a href="#">유저므흣<img src="img/icon_new.gif"></a></li>
+            <li><a href="#">정보<img src="img/icon_new.gif"></a></li>
+        </ul>
+    </nav>
+    <div class="bottombody">
+        <div class="centerbanner">
+            중앙 광고 배너
+        </div>
+        <!------ aivlist ------>
+            <div class="avlist">
+                <div class="avlist-header">
+                    <h2>모모조노 레나 작품</h2>
+                    <div class="avlist-headertime">
+                        <div class="avlist-headertimet"><i class="far fa-clock"></i>2021.03.14</div>
+                        <div class="avlist-headertimeb"><i class="fas fa-thumbs-up"></i> 856</div>
+                    </div>
+                </div>
+                <img src="img/JUFD-567.jpg">
+                <p>JUFD-567 ㅡagnet:?xt=urn:btih:5324540a149d1cce0efb5840506cb402300d3867&dn=</p>
+                <img src="img/JUFE-211.jpg">
+                <p>JUFE-211 : ㅡagnet:?xt=urn:btih:39382b0ef147b0581a7c793b35a9ce76e055f2d8&dn=</p>
+                <p>모모조노 레나 품번 공유합니다</p>
+                <div class="avlistup">
+                    <button class="upbtn"><i class="fas fa-thumbs-up"></i>856</button>
+                </div>
+                <did class="board-scrap">
+                    <button class="board-scrapb"><i class="fas fa-tags"></i>스크랩</button>
+                    <button class="board-scrapb1"><i class="fas fa-bell"></i>신고</button>
+                </did>
+                <div class="bottombanner">하단광고</div>
+                <div class="list-ud">
+                    <div class="list-udup"><i class="fas fa-angle-up"></i><p>다음글:</p><span>없음</span></div>
+                    <div class="list-uddown"><i class="fas fa-angle-down"></i><p>이전글:</p>
+                        <a href="#"><span>미카미 유아 작품</span></a>
+                    </div>
+                </div>
+                <!------ coments ------>
+                <div class="coments">
+                    <div class="coments_header">
+                        <h2>Coments</h2>
+                        <div class="coments_header1"><h5>댓글 이미지 등록 : [이미지주소]</h5></div>
+                    </div>
+                    <div class="coments_alert">- 욕설, 비방, 어그로 댓글 작성 시 통보 없이 삭제됩니다. (신고 부탁합니다.)</div>
+                    <div class="coments_inputs">
+                        <textarea style="width: 720px; height: 130px;" id="textarea"></textarea>
+                        <div class="coments-btns">
+                            <button id="comentswrite">
+                                <i class="fas fa-comment"></i>댓글등록</button>
+                            <button id="comentsbtns">
+                                <i class="far fa-smile"></i>
+                                <i class="fas fa-plus-circle"></i>
+                                <i class="fas fa-minus-circle"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="listnavbtns">
+                        <button class="listnavbtns1"><i class="fas fa-chevron-circle-left"></i>이전</button>
+                        <button class="listnavbtns1"><i class="fas fa-chevron-circle-right"></i>다음</button>
+                        <button class="listnavbtns1"><i class="fas fa-bars"></i>목록</button>
+                        <button class="listnavbtns4"><i class="fas fa-pencil-alt"></i>글쓰기</button>
+                    </div>
+                </div>
+            </div>
+            <!------ Ranking board ------>
+            <div class="rankingboard">
+                <div class="rankingboard-header">
+                    <span>유저들이 올리는 므흣짤, 게시판 성격에 맞지않는 글은 삭제합니다.</span>
+                    <button class="rankingboard-headerbtn"><i class="fas fa-pencil-alt"></i>글쓰기</button>
+                </div>
+                <div class="rankingboard-ranking">
+                    <div class="rankingboard-rankingul">
+                        <h3>일간베스트</h3>
+                        <div class="rankingboard-rankinglist">
+                            <div class="postwrap">
+                                <li class="postwrapli"><span class="rankpost">1</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">2</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">3</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">4</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">5</span><span>오순정계곡랭킹</span></li>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rankingboard-rankingul">
+                        <h3>일간베스트</h3>
+                        <div class="rankingboard-rankinglist">
+                            <div class="postwrap">
+                                <li class="postwrapli"><span class="rankpost">1</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">2</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">3</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">4</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">5</span><span>오순정계곡랭킹</span></li>
+                            </div>
+                        </div></div>
+                    <div class="rankingboard-rankingul">
+                        <h3>일간베스트</h3>
+                        <div class="rankingboard-rankinglist">
+                            <div class="postwrap">
+                                <li class="postwrapli"><span class="rankpost">1</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">2</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">3</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">4</span><span>오순정계곡랭킹</span></li>
+                                <li class="postwrapli"><span class="rankpost">5</span><span>오순정계곡랭킹</span></li>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tablewrap">
+                <table class="board_list">
+                    <caption>유저 므흣 게시판</caption>
+                    <thead>
+                        <tr>
+                            <th>번호</th>
+                            <th>제목</th>
+                            <th>날짜</th>
+                            <th>추천</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5755</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 모모조노 레나 작품 </a>
+                            </td>
+                            <td>2021.03.14</td>
+                            <td>856</td>
+                        </tr>
+                        <tr>
+                            <td>5754</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 미카미 유아 작품 </a>
+                            </td>
+                            <td>2021.03.14</td>
+                            <td>457</td>
+                        </tr>
+                        <tr>
+                            <td>5753</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 타카하시 쇼코 작품 </a>
+                            </td>
+                            <td>2021.03.14</td>
+                            <td>454</td>
+                        </tr>
+                        <tr>
+                            <td>5752</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 오쿠다 사키 작품 </a>
+                            </td>
+                            <td>2021.03.14</td>
+                            <td>753</td>
+                        </tr>
+                        <tr>
+                            <td>5751</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 이나바 루카 작품 </a>
+                            </td>
+                            <td>2021.03.13</td>
+                            <td>686</td>
+                        </tr>
+                        <tr>
+                            <td>5750</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 진구지 나오 작품 </a>
+                            </td>
+                            <td>2021.03.13</td>
+                            <td>671</td>
+                        </tr>
+                        <tr>
+                            <td>5749</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 카케이 준 </a>
+                            </td>
+                            <td>2021.03.13</td>
+                            <td>456</td>
+                        </tr>
+                        <tr>
+                            <td>5748</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 우사 미하루 작품 </a>
+                            </td>
+                            <td>2021.03.13</td>
+                            <td>836</td>
+                        </tr>
+                        <tr>
+                            <td>5747</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 유미 시온 작품 </a>
+                            </td>
+                            <td>2021.03.13</td>
+                            <td>864</td>
+                        </tr>
+                        <tr>
+                            <td>5746</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 혼조 스즈 작품 </a>
+                            </td>
+                            <td>2021.03.13</td>
+                            <td>658</td>
+                        </tr>
+                        <tr>
+                            <td>5745</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 미즈노 아사히 작품 </a>
+                            </td>
+                            <td>2021.03.13</td>
+                            <td>426</td>
+                        </tr>
+                        <tr>
+                            <td>5744</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 사카미치 미루 작품 </a>
+                            </td>
+                            <td>2021.03.13</td>
+                            <td>319</td>
+                        </tr>
+                        <tr>
+                            <td>5743</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 시노다 유우 작품 </a>
+                            </td>
+                            <td>2021.03.13</td>
+                            <td>518</td>
+                        </tr>
+                        <tr>
+                            <td>5742</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 시이나 소라 작품 </a>
+                            </td>
+                            <td>2021.03.12</td>
+                            <td>414</td>
+                        </tr>
+                        <tr>
+                            <td>5741</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 미우라 사쿠라 작품 </a>
+                            </td>
+                            <td>2021.03.12</td>
+                            <td>412</td>
+                        </tr>
+                        <tr>
+                            <td>5740</td>
+                            <td class="board_listtitle">
+                                <a href="#"> 요시네 유리아 작품 </a>
+                            </td>
+                            <td>2021.03.12</td>
+                            <td>747</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="boardserch">
+                    <button class="boardserchs"><i class="fas fa-search"></i>게시판 검색</button>
+                    <button class="boardserchw"><i class="fas fa-pencil-alt"></i>글쓰기</button>
+                </div>
+                <div class="page">
+                    <a href="#" class="page-btn"><i class="fas fa-angle-double-left"></i></a>
+                    <a href="#" class="page-btn"><i class="fas fa-angle-left"></i></a>
+                    <a href="#" class="page-num">1</a>
+                    <a href="#" class="page-num">2</a>
+                    <a href="#" class="page-num">3</a>
+                    <a href="#" class="page-num">4</a>
+                    <a href="#" class="page-num">5</a>
+                    <a href="#" class="page-num">6</a>
+                    <a href="#" class="page-num">7</a>
+                    <a href="#" class="page-num">8</a>
+                    <a href="#" class="page-num">9</a>
+                    <a href="#" class="page-num">10</a>
+                    <a href="#" class="page-btn"><i class="fas fa-angle-right"></i></a>
+                    <a href="#" class="page-btn"><i class="fas fa-angle-double-right"></i></a>
+                </div>
+            </div>
+    </div>
+    <footer class="lastsection">
+        <div class="lastsection_1">이용약관</div>
+        <div class="lastsection_2">개인정보처리방침</div>
+        <div class="lastsection_3">모든자료는 인터넷에서 퍼온자료입니다. 문의는 manpeadceadm@gmail.com</div>
+        <div class="lastsection_4">MOBILE</div>
+    </footer>
+    </div>
+</body>
+</html>

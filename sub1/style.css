@@ -1,0 +1,51 @@
+@import "css/index.css";
+
+@media screen and (max-width:768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 24px;
+    }
+
+    .navbar__menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .navbar__menu li {
+        width: 100%;
+        text-align: center;
+    }
+
+    .navbar__icons {
+        display: none;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .navbar__toggleBtn {
+        display: block;
+    }
+
+    .navbar__menu.active,
+    .navbar__icons.active {
+        display: flex;
+    }
+}
+
+:root {
+    --text-color: yellowgreen;
+    --background-color: #2ECCFA;
+    --accent-color: teal;
+}
+body {
+    margin: 0;
+    font-family: Source Sans Pro;
+}
+
+a{
+text-decoration: none;
+color: var(--text-color);
+}

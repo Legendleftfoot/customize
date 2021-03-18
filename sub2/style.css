@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: cornsilk;
+}
+/*----navbar----*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #380B61;
+    padding: 8px 18px;
+}
+.navbar__logo {
+    font-size: 24px;
+    color: white;
+}
+.navbar img {
+    width: 58px;
+    height: 35px;
+}
+/*----navbar__menu----*/
+.navbar__menu {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.navbar__menu li {
+    padding: 8px 12px;
+}
